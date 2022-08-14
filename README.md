@@ -2,7 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Swell Demo Store
+Swell Demo Store React Application which wraps the Products in a Store in a React Application
+
+[Loom Demo Recording](https://www.loom.com/share/edd92ac671114382bb00f8937f24d906)
 
 ## START HERE
 
