@@ -2,6 +2,21 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Swell Demo Store
+
+## START HERE
+
+1. Pull the repository from Git!
+2. Create a file in the Project Root directory titled: `.env.local` formatted like below. Ensure no whitespaces. Not doing this step will not pull data from Swell Backend.
+
+   ```
+   REACT_APP_SWELL_STORE_ID=<YOUR_STORE_ID>
+   REACT_APP_SWELL_PUBLIC_KEY=<YOUR_PUBLIC_KEY>
+   ```
+
+3. Open Terminal and run `npm start` which will run the Development Environment
+4. Navigate to http://localhost:3000/
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -44,3 +59,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+```
+
+```
