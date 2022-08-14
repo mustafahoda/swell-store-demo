@@ -25,6 +25,10 @@ Swell Demo Store React Application which wraps the Products in a Store in a Reac
 - Maintain synchronization between WebApp Shopping Cart and Swell Shopping Cart with Webhooks and API Calls to Swell
 - The sky is the limit with Swell!
 
+## Architecture Diagram
+
+![Diagram](https://raw.githubusercontent.com/mustafahoda/swell-store-demo/main/Swell%20Store.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
