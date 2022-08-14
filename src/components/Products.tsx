@@ -22,6 +22,7 @@ interface ProductsState {
 }
 
 class Products extends React.Component<ProductsProps, ProductsState> {
+  // Get Producs from Swell Backend
   async getProducts() {
     try {
       let products = await swell.products.list({

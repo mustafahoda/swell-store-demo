@@ -1,39 +1,18 @@
-import { Breadcrumb, Layout, Menu, Button } from "antd";
+import { BrowserRouter, Link, Routes, Route } from "react-router-dom";
+import { Layout, Menu } from "antd";
+
+// Import Custom Components
 import Products from "./components/Products";
 import About from "./components/About";
-
-import React from "react";
-
-import { BrowserRouter, Link, Routes, Route, Router } from "react-router-dom";
-
 import "./App.css";
-const swell = require("swell-js");
+
 const { Header, Content, Footer } = Layout;
-
-swell.init("mustafa-swell-demo", "pk_KyTi02he8noWb4FeGquWbGzvf4XwSszs");
-
-const menuItems = [
-  {
-    label: "Products",
-    key: "product",
-  },
-  {
-    label: "Cart",
-    key: "cart",
-  },
-];
 
 const App = () => (
   <BrowserRouter>
     <Layout className="layout">
       <Header>
         <div className="logo" />
-        {/* <Menu
-          theme="dark"
-          mode="horizontal"
-          defaultSelectedKeys={["2"]}
-          items={menuItems}
-        /> */}
         <Menu theme="dark" mode="horizontal">
           <Link to="/products">
             <Menu.Item>Products</Menu.Item>
@@ -55,7 +34,7 @@ const App = () => (
           textAlign: "center",
         }}
       >
-        Mustafa Hoda + Swell © 2022 Created w/{" "}
+        Mustafa Hoda + Swell © 2022 Created w/
         <a href="https://ant.design/">Ant Design 🐜</a> + React
       </Footer>
     </Layout>

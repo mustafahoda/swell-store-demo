@@ -17,6 +17,12 @@ Swell Demo Store
 3. Open Terminal and run `npm start` which will run the Development Environment
 4. Navigate to http://localhost:3000/
 
+## Next Steps and Improvements
+
+- Push Shopping Cart State to Swell Shopping Cart
+- Maintain synchronization between WebApp Shopping Cart and Swell Shopping Cart with Webhooks and API Calls to Swell
+- The sky is the limit with Swell!
+
 ## Available Scripts
 
 In the project directory, you can run:
