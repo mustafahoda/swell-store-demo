@@ -9,15 +9,16 @@ Swell Demo Store React Application which wraps the Products in a Store in a Reac
 ## START HERE
 
 1. Pull the repository from Git!
-2. Create a file in the Project Root directory titled: `.env.local` formatted like below. Ensure no whitespaces. Not doing this step will not pull data from Swell Backend.
+1. run `npm install` to install dependencies
+1. Create a file in the Project Root directory titled: `.env.local` formatted like below. Ensure no whitespaces. Not doing this step will not pull data from Swell Backend.
 
    ```
    REACT_APP_SWELL_STORE_ID=<YOUR_STORE_ID>
    REACT_APP_SWELL_PUBLIC_KEY=<YOUR_PUBLIC_KEY>
    ```
 
-3. Open Terminal and run `npm start` which will run the Development Environment
-4. Navigate to http://localhost:3000/
+1. Open Terminal and run `npm start` which will run the Development Environment
+1. Navigate to http://localhost:3000/
 
 ## Next Steps and Improvements
 
